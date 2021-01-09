@@ -23,7 +23,8 @@ if operation == 1:
     result = num_1 + num_2
     if result == 420 : 
         print(f'Happy {result}')
-    print (result)
+    else: 
+        print (result)
 elif operation == 2:
     # Clear terminal
     print(chr(27) + "[2J")
@@ -32,7 +33,8 @@ elif operation == 2:
     result = num_1 / num_2
     if result == 420 : 
         print(f'Happy {result}')
-    print (result)
+    else: 
+        print (result)
 elif operation == 3:
     # Clear terminal
     print(chr(27) + "[2J")
@@ -41,7 +43,8 @@ elif operation == 3:
     result = num_1 - num_2
     if result == 420 : 
         print(f'Happy {result}')
-    print (result)
+    else: 
+        print (result)
 elif operation == 4:
     # Clear terminal
     print(chr(27) + "[2J")
@@ -50,4 +53,5 @@ elif operation == 4:
     result = num_1 * num_2
     if result == 420 : 
         print(f'Happy {result}')
-    print (result)
+    else: 
+        print (result)
